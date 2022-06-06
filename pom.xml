@@ -40,14 +40,19 @@
 
 	<build>
 		<plugins>
+<!--			<plugin>-->
+<!--				<groupId>org.springframework.boot</groupId>-->
+<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--				<configuration>-->
+<!--					<image>-->
+<!--						<name>docker.io/kbachman/kubernetes:1.0.1</name>-->
+<!--					</image>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<image>
-						<name>docker.io/kbachman/kubernetes:demo-latest</name>
-					</image>
-				</configuration>
+				<groupId>nl.lexemmens</groupId>
+				<artifactId>podman-maven-plugin</artifactId>
+				<version>1.8.0</version>
 			</plugin>
 		</plugins>
 	</build>
