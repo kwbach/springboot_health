@@ -16,4 +16,4 @@ info:
   application:
     name: ${spring.application.name}
     description: Application for testing CI/CD pipeline
-    version: 1.0.3
+    version: 06.15.22
